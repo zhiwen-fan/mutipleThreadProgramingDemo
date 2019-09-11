@@ -31,7 +31,7 @@ public class ThreadConcurrentDemo {
     static class Test{
         private int count;
 
-        public synchronized void execute() {
+        public void execute() {
             for (int i = 0; i < 100; i++) {
                 try {
                     Thread.sleep(1);

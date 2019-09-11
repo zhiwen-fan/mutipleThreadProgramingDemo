@@ -19,7 +19,7 @@ public class MemoryVisibleDemo {
     }
 
    static class Example {
-        private volatile boolean stop = false;
+        private boolean stop = false;
         private int i;
         public void execute() {
             while (!stop) {
